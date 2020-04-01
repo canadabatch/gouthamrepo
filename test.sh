@@ -1,4 +1,4 @@
-mvn clean packag
+mahesh abtch
 if [ $? -eq 0 ];
 then
 echo "pac ke build"
