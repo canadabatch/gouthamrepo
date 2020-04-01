@@ -4,10 +4,10 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- dev
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'RHEl-16.04'
 
 steps:
 - script: echo Hello, world!
