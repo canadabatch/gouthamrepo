@@ -1,9 +1,6 @@
-jhguguy zsrgsysde
-fgtesr saerf we t tsret rwawt awe aew
- ewrtwet
-  yewywee
-  5 yyure uuik
-   erryeryur6tu
+maven cvlea
+dsample
+hell bro
 echo "pac ke build"
 else
 ls
