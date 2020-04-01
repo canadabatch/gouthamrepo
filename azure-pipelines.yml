@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImageName: "window-2012" 
 
-steps:
+steps first:wq!:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
