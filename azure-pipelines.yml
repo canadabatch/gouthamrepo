@@ -9,7 +9,8 @@ trigger:
 pool:
   vmImage: 'RHEl-16.04'
 
-steps:
+
+steps first:wq!:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
