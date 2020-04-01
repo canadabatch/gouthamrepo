@@ -1,0 +1,21 @@
+---
+- hosts: localhost
+  gather_facts: no
+  become: no
+  vars:
+    source: "{{ src }}"
+    destination: "/var/lib/jenkins/mahi"
+  tasks:
+   - name: create the folder
+     file:
+      path: /var/lib/jenkins/mahi
+      state: directory
+      mode: 0755
+      owner: jenkins
+      group: jenkins
+   - name: file copy
+     copy:
+       src: "{{ source }}"
+       dest: "{{ destination }}"
+       owner: jenkins
+       group: jenkins
