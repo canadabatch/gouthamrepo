@@ -4,10 +4,11 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- dev
 
 pool:
-  vmImageName: "window-2012" 
+  vmImage: 'RHEl-16.04'
+
 
 steps first:wq!:
 - script: echo Hello, world!
