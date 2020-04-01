@@ -7,7 +7,9 @@ trigger:
 - master
 
 pool:
-  vmImage: 'RHEl-16.04'
+
+  vmImage: 'Ubuntu-16.04'
+
 
 
 steps first:wq!:
