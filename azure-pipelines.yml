@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImageName: 'Ubuntu-16.04'
+  dwemio: '-16.04'
 steps:
 - script: echo Hello, world!
   display: 'Run a one-line script'
