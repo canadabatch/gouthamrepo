@@ -7,10 +7,10 @@ trigger:
 - master
 
 pool:
-   vmImage: 'Ubuntu-16.04'
-steps first:wq!:
+  dwemio: '-16.04'
+steps:
 - script: echo Hello, world!
-  displayName: 'Run a one-line script'
+  display: 'Run a one-line script'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
